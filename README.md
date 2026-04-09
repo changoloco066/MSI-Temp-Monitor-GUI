@@ -2,21 +2,12 @@
 A lightweight Python application with a modern CustomTkinter interface to monitor your GPU and CPU temperatures in real time, log them to a local TXT file, and visualize historical data with control-chart style graphs.
 
 Prerequisites
-MSI Afterburner
-Install and run MSI Afterburner on Windows.
-In Settings → Monitoring → check “Log history to file.”
-Set the Log file path to something like C:\Path\To\temperaturasMSI.csv.
-Ensure “Enable hardware monitoring” is on in the tray icon.
 Python & Dependencies
 Python 3.8+ installed.
 From a terminal or VS Code console, run:
 pip install pandas customtkinter matplotlib
 
 Configuration
-CSV from MSI Afterburner
-Point Afterburner’s CSV output to a local folder outside of OneDrive or any syncing service.
-Example:
-C:\TempMonitor\logs\temperaturasMSI.csv
 Warning: Do not open this CSV in Excel or any editor while the app is running—MSI Afterburner must be free to append new lines.
 
 Application Paths
